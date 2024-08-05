@@ -1,0 +1,27 @@
+public class Santhosh {
+	int rate;
+	String name;
+	String spec;
+	public void programming() {
+		System.out.println("used to do some programms...");
+	}
+	public void Gamming() {
+		System.out.println("To play games...");
+	}
+	public static void editing() {
+		System.out.println("Also used for editing...");
+	}
+	public static void main(String[] args) {
+		Santhosh laptop=new Santhosh();
+		laptop.rate=20000;
+		laptop.name="HP";
+		laptop.spec="Backlit keyboard,8gb ram,512 SSD";
+		System.out.println(laptop.rate+" "+laptop.name+" "+laptop.spec);
+		laptop.Gamming();
+		editing();
+	}	
+	
+}
+
+
+
